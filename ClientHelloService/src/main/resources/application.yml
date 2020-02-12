@@ -1,0 +1,13 @@
+logging:
+  level:
+    org.springframework: DEBUG
+    
+spring:
+ application:
+   name: client-hello-service
+server:
+ port: 8181
+eureka:
+ client:
+   serviceUrl:
+     defaultZone: http://localhost:8761/eureka
