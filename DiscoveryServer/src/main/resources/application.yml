@@ -1,9 +1,21 @@
-logging:
-  level:
-    org.springframework: DEBUG
-    
 server:
  port: 8761
+
+logging:
+  level:
+    org.springframework: DEBUG    
+ 
+spring:
+    jackson:
+        serialization:
+            indent-output: true
+
+management:    
+    endpoints:
+        web:            
+            exposure:
+                include: "*"           
+
 eureka:
  client:
    registerWithEureka: false

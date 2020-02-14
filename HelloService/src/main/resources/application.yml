@@ -1,3 +1,6 @@
+server:
+    port: 0
+
 logging:
     level:
         org.springframework: DEBUG
@@ -5,8 +8,16 @@ logging:
 spring:
     application:
         name: hello-service
-server:
-    port: 0
+    jackson:
+        serialization:
+            indent-output: true
+
+management:
+    endpoints:
+        web:            
+            exposure:
+                include: "*"
+
 eureka:
     client:
         serviceUrl:
