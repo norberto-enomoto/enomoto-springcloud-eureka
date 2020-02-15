@@ -1,7 +1,5 @@
 package com.example.dxc.ClientHelloService.service;
 
-import java.net.URI;
-
 import com.example.dxc.ClientHelloService.model.HelloModel;
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 
