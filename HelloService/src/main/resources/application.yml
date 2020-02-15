@@ -1,9 +1,11 @@
 server:
     port: 0
 
-logging:
-    level:
-        org.springframework: DEBUG
+logging: 
+  pattern:
+    console: "%d{dd-MM-yy HH:mm:ss.SSS} %-5level %logger : %msg%n"    
+  level:
+    org.springframework: DEBUG
     
 spring:
     application:

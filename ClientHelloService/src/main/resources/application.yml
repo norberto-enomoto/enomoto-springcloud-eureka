@@ -1,7 +1,9 @@
 server:
  port: 8181
 
-logging:
+logging: 
+  pattern:
+    console: "%d{dd-MM-yy HH:mm:ss.SSS} %-5level %logger : %msg%n"    
   level:
     org.springframework: DEBUG
     

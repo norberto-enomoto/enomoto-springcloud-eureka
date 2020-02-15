@@ -1,0 +1,34 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-DiscoveryServerApplication<DiscoveryServer>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.example.dxc.DiscoveryServer.DiscoveryServerApplication",
+            "projectName": "DiscoveryServer",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-HelloServiceApplication<HelloService>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.example.dxc.HelloService.HelloServiceApplication",
+            "projectName": "HelloService",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-ClientHelloServiceApplication<ClientHelloService>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.example.dxc.ClientHelloService.ClientHelloServiceApplication",
+            "projectName": "ClientHelloService",
+            "args": ""
+        }
+    ]
+}
